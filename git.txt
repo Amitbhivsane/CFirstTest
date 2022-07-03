@@ -1,0 +1,611 @@
+//working directory
+https://github.com/Amitbhivsane/Ecom_SeleniumJavaDDF.git
+
+
+
+//connect local git repostorry 
+$ git remote add origin https://github.com/Amitbhivsane/Ecom_SeleniumJavaDDF.git
+
+git status//
+
+
+
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory
+$  git init
+Initialized empty Git repository in C:/Users/amitb/eclipse-workspace/MyStory/.git/
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git remote add origin https://github.com/Amitbhivsane/Ecom_SeleniumJavaDDF.git
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status^C
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ ^C
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        TestData/
+        configuration/
+        pom.xml
+        screenshots/
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git -a
+unknown option: -a
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git add -a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        TestData/
+        configuration/
+        pom.xml
+        screenshots/
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git -a
+unknown option: -a
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        TestData/
+        configuration/
+        pom.xml
+        screenshots/
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git add -A
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Suite/Test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/Suite/Test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/TEST-TestSuite.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/jquery.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/junitreports/TEST-com.Mystore.Testcases.TC_ProductPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/Suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports1.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports2.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/jquery.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTestDataDrivenTesting.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-com.Mystore.Testcases.TC_ProductPageTest.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports1.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports2.js.
+The file will have its original line endings in your working directory
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   TestData/MyStoreTestData.xlsx
+        new file:   configuration/config.properties
+        new file:   pom.xml
+        new file:   screenshots/VerifyLogin.png
+        new file:   screenshots/verifyAddToWishlistWithoutLogin.png
+        new file:   src/main/resource/log4j2.properties
+        new file:   src/test/java/com/Mystore/Testcases/BaseClass.java
+        new file:   src/test/java/com/Mystore/Testcases/TC_MyAccountPageTest.java
+        new file:   src/test/java/com/Mystore/Testcases/TC_MyAccountPageTestDataDrivenTesting.java
+        new file:   src/test/java/com/Mystore/Testcases/TC_ProductPageTest.java
+        new file:   src/test/java/com/Mystore/pageobject/IndexPage.java
+        new file:   src/test/java/com/Mystore/pageobject/MyAccount.java
+        new file:   src/test/java/com/Mystore/pageobject/OrderAddressPage.java
+        new file:   src/test/java/com/Mystore/pageobject/OrderConfirmationPage.java
+        new file:   src/test/java/com/Mystore/pageobject/OrderPaymentPage.java
+        new file:   src/test/java/com/Mystore/pageobject/OrderShippingPage.java
+        new file:   src/test/java/com/Mystore/pageobject/OrderSummaryPage.java
+        new file:   src/test/java/com/Mystore/pageobject/ProductPage.java
+        new file:   src/test/java/com/Mystore/pageobject/SearchResultPage.java
+        new file:   src/test/java/com/Mystore/pageobject/accountCreationDetails.java
+        new file:   src/test/java/com/Mystore/pageobject/registeredUserAccount.java
+        new file:   src/test/java/com/Mystore/utility/ExtentListenerClass.java
+        new file:   src/test/java/com/Mystore/utility/ReadConfig.java
+        new file:   src/test/java/com/Mystore/utility/ReadExcelFile.java
+        new file:   target/classes/log4j2.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   target/surefire-reports/Suite/Test.html
+        new file:   target/surefire-reports/Suite/Test.xml
+        new file:   target/surefire-reports/TEST-TestSuite.xml
+        new file:   target/surefire-reports/TestSuite.txt
+        new file:   target/surefire-reports/bullet_point.png
+        new file:   target/surefire-reports/collapseall.gif
+        new file:   target/surefire-reports/emailable-report.html
+        new file:   target/surefire-reports/failed.png
+        new file:   target/surefire-reports/index.html
+        new file:   target/surefire-reports/jquery.min.js
+        new file:   target/surefire-reports/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTest.xml
+        new file:   target/surefire-reports/junitreports/TEST-com.Mystore.Testcases.TC_ProductPageTest.xml
+        new file:   target/surefire-reports/navigator-bullet.png
+        new file:   target/surefire-reports/old/Suite/Test.properties
+        new file:   target/surefire-reports/old/Suite/classes.html
+        new file:   target/surefire-reports/old/Suite/groups.html
+        new file:   target/surefire-reports/old/Suite/index.html
+        new file:   target/surefire-reports/old/Suite/main.html
+        new file:   target/surefire-reports/old/Suite/methods-alphabetical.html
+        new file:   target/surefire-reports/old/Suite/methods-not-run.html
+        new file:   target/surefire-reports/old/Suite/methods.html
+        new file:   target/surefire-reports/old/Suite/reporter-output.html
+        new file:   target/surefire-reports/old/Suite/testng.xml.html
+        new file:   target/surefire-reports/old/Suite/toc.html
+        new file:   target/surefire-reports/old/index.html
+        new file:   target/surefire-reports/passed.png
+        new file:   target/surefire-reports/skipped.png
+        new file:   target/surefire-reports/testng-reports.css
+        new file:   target/surefire-reports/testng-reports.js
+        new file:   target/surefire-reports/testng-reports1.css
+        new file:   target/surefire-reports/testng-reports2.js
+        new file:   target/surefire-reports/testng-results.xml
+        new file:   target/surefire-reports/testng.css
+        new file:   target/test-classes/com/Mystore/Testcases/BaseClass.class
+        new file:   target/test-classes/com/Mystore/Testcases/TC_MyAccountPageTest.class
+        new file:   target/test-classes/com/Mystore/Testcases/TC_MyAccountPageTestDataDrivenTesting.class
+        new file:   target/test-classes/com/Mystore/Testcases/TC_ProductPageTest.class
+        new file:   target/test-classes/com/Mystore/pageobject/IndexPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/MyAccount.class
+        new file:   target/test-classes/com/Mystore/pageobject/OrderAddressPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/OrderConfirmationPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/OrderPaymentPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/OrderShippingPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/OrderSummaryPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/ProductPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/SearchResultPage.class
+        new file:   target/test-classes/com/Mystore/pageobject/accountCreationDetails.class
+        new file:   target/test-classes/com/Mystore/pageobject/registeredUserAccount.class
+        new file:   target/test-classes/com/Mystore/utility/ExtentListenerClass.class
+        new file:   target/test-classes/com/Mystore/utility/ReadConfig.class
+        new file:   target/test-classes/com/Mystore/utility/ReadExcelFile.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/Default suite/testng-failed.xml
+        new file:   test-output/Suite/Test.html
+        new file:   test-output/Suite/Test.xml
+        new file:   test-output/Suite/testng-failed.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery.min.js
+        new file:   test-output/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTest.xml
+        new file:   test-output/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTestDataDrivenTesting.xml
+        new file:   test-output/junitreports/TEST-com.Mystore.Testcases.TC_ProductPageTest.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/old/Default suite/Default test.properties
+        new file:   test-output/old/Default suite/classes.html
+        new file:   test-output/old/Default suite/groups.html
+        new file:   test-output/old/Default suite/index.html
+        new file:   test-output/old/Default suite/main.html
+        new file:   test-output/old/Default suite/methods-alphabetical.html
+        new file:   test-output/old/Default suite/methods-not-run.html
+        new file:   test-output/old/Default suite/methods.html
+        new file:   test-output/old/Default suite/reporter-output.html
+        new file:   test-output/old/Default suite/testng.xml.html
+        new file:   test-output/old/Default suite/toc.html
+        new file:   test-output/old/Suite/Test.properties
+        new file:   test-output/old/Suite/classes.html
+        new file:   test-output/old/Suite/groups.html
+        new file:   test-output/old/Suite/index.html
+        new file:   test-output/old/Suite/main.html
+        new file:   test-output/old/Suite/methods-alphabetical.html
+        new file:   test-output/old/Suite/methods-not-run.html
+        new file:   test-output/old/Suite/methods.html
+        new file:   test-output/old/Suite/reporter-output.html
+        new file:   test-output/old/Suite/testng.xml.html
+        new file:   test-output/old/Suite/toc.html
+        new file:   test-output/old/index.html
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-failed.xml
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-reports1.css
+        new file:   test-output/testng-reports2.js
+        new file:   test-output/testng-results.xml
+        new file:   test-output/testng.css
+        new file:   testng.xml
+
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git config --global user.name "Amtbhivsane"
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git config --global user.email "amitbhivsane@gmail.com"
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git commit -m "first time upload commit"
+[master (root-commit) 48df339] first time upload commit
+ 134 files changed, 6027 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 TestData/MyStoreTestData.xlsx
+ create mode 100644 configuration/config.properties
+ create mode 100644 pom.xml
+ create mode 100644 screenshots/VerifyLogin.png
+ create mode 100644 screenshots/verifyAddToWishlistWithoutLogin.png
+ create mode 100644 src/main/resource/log4j2.properties
+ create mode 100644 src/test/java/com/Mystore/Testcases/BaseClass.java
+ create mode 100644 src/test/java/com/Mystore/Testcases/TC_MyAccountPageTest.java
+ create mode 100644 src/test/java/com/Mystore/Testcases/TC_MyAccountPageTestDataDrivenTesting.java
+ create mode 100644 src/test/java/com/Mystore/Testcases/TC_ProductPageTest.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/IndexPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/MyAccount.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/OrderAddressPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/OrderConfirmationPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/OrderPaymentPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/OrderShippingPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/OrderSummaryPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/ProductPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/SearchResultPage.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/accountCreationDetails.java
+ create mode 100644 src/test/java/com/Mystore/pageobject/registeredUserAccount.java
+ create mode 100644 src/test/java/com/Mystore/utility/ExtentListenerClass.java
+ create mode 100644 src/test/java/com/Mystore/utility/ReadConfig.java
+ create mode 100644 src/test/java/com/Mystore/utility/ReadExcelFile.java
+ create mode 100644 target/classes/log4j2.properties
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ create mode 100644 target/surefire-reports/Suite/Test.html
+ create mode 100644 target/surefire-reports/Suite/Test.xml
+ create mode 100644 target/surefire-reports/TEST-TestSuite.xml
+ create mode 100644 target/surefire-reports/TestSuite.txt
+ create mode 100644 target/surefire-reports/bullet_point.png
+ create mode 100644 target/surefire-reports/collapseall.gif
+ create mode 100644 target/surefire-reports/emailable-report.html
+ create mode 100644 target/surefire-reports/failed.png
+ create mode 100644 target/surefire-reports/index.html
+ create mode 100644 target/surefire-reports/jquery.min.js
+ create mode 100644 target/surefire-reports/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTest.xml
+ create mode 100644 target/surefire-reports/junitreports/TEST-com.Mystore.Testcases.TC_ProductPageTest.xml
+ create mode 100644 target/surefire-reports/navigator-bullet.png
+ create mode 100644 target/surefire-reports/old/Suite/Test.properties
+ create mode 100644 target/surefire-reports/old/Suite/classes.html
+ create mode 100644 target/surefire-reports/old/Suite/groups.html
+ create mode 100644 target/surefire-reports/old/Suite/index.html
+ create mode 100644 target/surefire-reports/old/Suite/main.html
+ create mode 100644 target/surefire-reports/old/Suite/methods-alphabetical.html
+ create mode 100644 target/surefire-reports/old/Suite/methods-not-run.html
+ create mode 100644 target/surefire-reports/old/Suite/methods.html
+ create mode 100644 target/surefire-reports/old/Suite/reporter-output.html
+ create mode 100644 target/surefire-reports/old/Suite/testng.xml.html
+ create mode 100644 target/surefire-reports/old/Suite/toc.html
+ create mode 100644 target/surefire-reports/old/index.html
+ create mode 100644 target/surefire-reports/passed.png
+ create mode 100644 target/surefire-reports/skipped.png
+ create mode 100644 target/surefire-reports/testng-reports.css
+ create mode 100644 target/surefire-reports/testng-reports.js
+ create mode 100644 target/surefire-reports/testng-reports1.css
+ create mode 100644 target/surefire-reports/testng-reports2.js
+ create mode 100644 target/surefire-reports/testng-results.xml
+ create mode 100644 target/surefire-reports/testng.css
+ create mode 100644 target/test-classes/com/Mystore/Testcases/BaseClass.class
+ create mode 100644 target/test-classes/com/Mystore/Testcases/TC_MyAccountPageTest.class
+ create mode 100644 target/test-classes/com/Mystore/Testcases/TC_MyAccountPageTestDataDrivenTesting.class
+ create mode 100644 target/test-classes/com/Mystore/Testcases/TC_ProductPageTest.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/IndexPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/MyAccount.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/OrderAddressPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/OrderConfirmationPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/OrderPaymentPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/OrderShippingPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/OrderSummaryPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/ProductPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/SearchResultPage.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/accountCreationDetails.class
+ create mode 100644 target/test-classes/com/Mystore/pageobject/registeredUserAccount.class
+ create mode 100644 target/test-classes/com/Mystore/utility/ExtentListenerClass.class
+ create mode 100644 target/test-classes/com/Mystore/utility/ReadConfig.class
+ create mode 100644 target/test-classes/com/Mystore/utility/ReadExcelFile.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Suite/Test.html
+ create mode 100644 test-output/Suite/Test.xml
+ create mode 100644 test-output/Suite/testng-failed.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery.min.js
+ create mode 100644 test-output/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTest.xml
+ create mode 100644 test-output/junitreports/TEST-com.Mystore.Testcases.TC_MyAccountPageTestDataDrivenTesting.xml
+ create mode 100644 test-output/junitreports/TEST-com.Mystore.Testcases.TC_ProductPageTest.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/Suite/Test.properties
+ create mode 100644 test-output/old/Suite/classes.html
+ create mode 100644 test-output/old/Suite/groups.html
+ create mode 100644 test-output/old/Suite/index.html
+ create mode 100644 test-output/old/Suite/main.html
+ create mode 100644 test-output/old/Suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Suite/methods-not-run.html
+ create mode 100644 test-output/old/Suite/methods.html
+ create mode 100644 test-output/old/Suite/reporter-output.html
+ create mode 100644 test-output/old/Suite/testng.xml.html
+ create mode 100644 test-output/old/Suite/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-reports1.css
+ create mode 100644 test-output/testng-reports2.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testng.xml
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git push -u origin master
+Enumerating objects: 149, done.
+Counting objects: 100% (149/149), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (132/132), done.
+Writing objects: 100% (149/149), 349.03 KiB | 8.31 MiB/s, done.
+Total 149 (delta 34), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (34/34), done.
+To https://github.com/Amitbhivsane/Ecom_SeleniumJavaDDF.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git pull -origin master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git pull origin master
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 689 bytes | 31.00 KiB/s, done.
+From https://github.com/Amitbhivsane/Ecom_SeleniumJavaDDF
+ * branch            master     -> FETCH_HEAD
+   48df339..17d8765  master     -> origin/master
+Updating 48df339..17d8765
+Fast-forward
+ testpullcommand.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 testpullcommand.txt
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   testpullcommand.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git add -A
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   testpullcommand.txt
+
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git commit -m "second testpullcommand modified "
+[master eb7787e] second testpullcommand modified
+ 1 file changed, 6 insertions(+)
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 297.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Amitbhivsane/Ecom_SeleniumJavaDDF.git
+   17d8765..eb7787e  master -> master
+branch 'master' set up to track 'origin/master'.
+
+amitb@DESKTOP-KEGK5F9 MINGW64 ~/eclipse-workspace/MyStory (master)
+$
